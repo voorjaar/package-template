@@ -8,11 +8,11 @@ Click [Use this template](https://github.com/voorjaar/package-template/generate)
 
 ## Pre-configured
 
-- Typescript
-- Sucrase
-- Jest
-- Eslint
-- Rollup
+- [Typescript](https://www.typescriptlang.org/)
+- [Sucrase](https://www.npmjs.com/package/sucrase)
+- [Jest](https://jestjs.io/)
+- [Eslint](https://eslint.org/)
+- [Rollup](https://rollupjs.org/)
 
 ## Commands
 
@@ -53,3 +53,9 @@ Update test snapshots.
 ### `coverage`
 
 Genearte coverage report.
+
+## License
+
+[MIT](https://github.com/voorjaar/package-template/blob/main/LICENSE)
+
+Copyright (c) 2022, Raven Satir
