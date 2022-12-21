@@ -9,10 +9,14 @@
     "baseUrl": ".",
     "declaration": true,
     "stripInternal": true,
+    "skipLibCheck": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "noEmitOnError": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-  }
+  },
+  "include": [
+    "src"
+  ]
 }
