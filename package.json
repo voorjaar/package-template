@@ -1,7 +1,7 @@
 {
   "name": "package-template",
   "version": "1.0.0",
-  "description": "A template git repo to set up a typescript package",
+  "description": "A template git repo for setting up a typescript package",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
