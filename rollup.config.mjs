@@ -18,7 +18,9 @@ const plugins = [
   del({ targets: "dist/*", runOnce: true }),
   commonjs(),
   nodeResolve(),
-  typescript(),
+  typescript({
+    exclude: ["tests/*.test.ts"]
+  }),
 ];
 
 const options = formats.map((format) =>
