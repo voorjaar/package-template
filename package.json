@@ -14,6 +14,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "test": "jest",
+    "test:dts": "tsc --noEmit",
     "test:watch": "jest --watch",
     "test:update": "jest --updateSnapshot",
     "coverage": "jest --coverage"
