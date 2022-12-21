@@ -2,7 +2,6 @@
   "name": "package-template",
   "version": "1.0.0",
   "description": "A Node Package Template for Friends.",
-  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

@@ -15,8 +15,5 @@
     "noEmitOnError": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-  },
-  "include": [
-    "src"
-  ]
+  }
 }
