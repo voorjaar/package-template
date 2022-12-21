@@ -6,10 +6,21 @@ This is a git repo template for setting up your own project using Typescript, Pn
 
 Click [Use this template](https://github.com/voorjaar/package-template/generate) to initialize a new repository on Github.
 
+Alternately, you can use [degit](https://www.npmjs.com/package/degit) to Create a new project.
+
+```bash
+npx degit https://github.com/voorjaar/package-template my-new-project
+cd my-new-project
+pnpm install
+pnpm build
+pnpm test
+```
+
 ## Pre-configured
 
 - [Typescript](https://www.typescriptlang.org/)
 - [Sucrase](https://www.npmjs.com/package/sucrase)
+- [Pnpm](https://pnpm.io/)
 - [Jest](https://jestjs.io/)
 - [Eslint](https://eslint.org/)
 - [Rollup](https://rollupjs.org/)
